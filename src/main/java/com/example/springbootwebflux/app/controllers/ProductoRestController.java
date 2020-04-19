@@ -19,7 +19,7 @@ public class ProductoRestController {
     @Autowired
     private ProductoDAO dao;
 
-    private static final Logger LOG = LoggerFactory.getLogger(ProductoController.class);
+    private static final Logger LOG = LoggerFactory.getLogger(ProductoRestController.class);
 
     @GetMapping
     public Flux<Producto> index() {
